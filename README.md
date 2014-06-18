@@ -1,12 +1,12 @@
 handsontable-timepicker
 =======================
 
-TimePicker custom editor for Handsontable (http://handsontable.com/)
+TimePicker custom editor for [Handsontable](http://handsontable.com/)
 
 Usage
 =======================
 
-Add bootstrap-clockpicker (https://github.com/weareoutman/clockpicker) and jquery.handsontable.clockeditor.js reference in your html.
+Add [bootstrap-clockpicker](https://github.com/weareoutman/clockpicker) and jquery.handsontable.clockeditor.js reference in your html.
 The handsontable constructor should use the new editor for time columns:
 ```
 $container.handsontable({
