@@ -18,6 +18,8 @@ TimeEditor.prototype.open = function () {
     var offset = $td.offset();
 	
 	this.clockInput.clockpicker('show');
+	//remove hiding event of clockpicker
+	$(document).off('click.clockpicker.cp1 focusin.clockpicker.cp1');
 	
 	var $cpop = $('.clockpicker-popover');
 	$cpop.offset({ top: offset.top + $td.height() + 10, left: offset.left });
