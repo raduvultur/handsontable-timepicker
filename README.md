@@ -19,4 +19,4 @@ $container.handsontable({
 });
 ```
 For a demo try this:
-http://embed.plnkr.co/HHF9unL5u8hpofur9eGN/preview
+http://run.plnkr.co/JhfFLekt9v4ge4YH/
